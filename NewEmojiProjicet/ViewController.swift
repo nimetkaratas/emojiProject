@@ -15,7 +15,7 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
     @IBAction func showMessage (sender: UIButton) {
-        let alertController = UIAlertController(title: "Weather", message: "emojiMessage", preferredStyle: UIAlertController.Style.alert)
+        let alertController = UIAlertController(title: "Weather", message: "Hi!", preferredStyle: UIAlertController.Style.alert)
         alertController.addAction(UIAlertAction(title: "Good to know!", style:UIAlertAction.Style.default, handler: nil))
         present(alertController, animated: true, completion: nil)
     }
